@@ -407,6 +407,7 @@ input[type=submit] {
   .container {
     width: 94%; }
   .main-section {
+    margin-top:20px;
     max-width: 100%; }
   .auth-image {
     width: 100%; 
@@ -421,15 +422,14 @@ input[type=submit] {
     height: 80px; }
   nav {
     float: left;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 0;
     width: 100%;}
   nav li {
-    padding: 0;
+    padding: 10px;
     margin: 0;
     text-align: center;
-    width: 33.3%; 
-    
+    width: 32%; 
   }
   
 }
