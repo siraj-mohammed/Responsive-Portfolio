@@ -382,14 +382,54 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media only screen and (max-width: 980px) {
-  
+@media screen and (max-width: 980px) {
+  .container {
+    width: 740px; }
 }
 
 @media only screen and (max-width: 768px) {
-  
+  .container {
+    width: 94%; }
+  .main-section {
+    max-width: 100%; }
+  .auth-image {
+    width: 50%; }
+  .work {
+    width: 48%;
+    margin: 15px 0; }
+  .work:nth-child(even) {
+    margin-right: 10px; }
 }
 
 @media only screen and (max-width: 640px) {
- 
+  #masthead .container {
+    width: 100%; }
+  .container {
+    width: 94%; }
+  .main-section {
+    max-width: 100%; }
+  .auth-image {
+    width: 100%; 
+    margin-bottom: 15px; }
+  .work {
+    width: 100%; }
+  footer {
+    height: 60px; 
+    padding: 10px; }
+  #logo {
+    width: 100%; 
+    height: 80px; }
+  nav {
+    float: left;
+    margin-top: 15px;
+    padding: 0;
+    width: 100%;}
+  nav li {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 33.3%; 
+    
+  }
+  
 }
